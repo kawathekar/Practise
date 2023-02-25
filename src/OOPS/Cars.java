@@ -13,7 +13,7 @@ public class Cars {
 		if (mfg.equalsIgnoreCase("Ford")) {
 			
 			
-			System.out.println("Car is American");
+			System.out.println("Car is Americana &");
 		}
 		if (mfg.equalsIgnoreCase("Maruti")) {
 			System.out.println("Car is Indian");
