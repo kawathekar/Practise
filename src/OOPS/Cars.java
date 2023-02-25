@@ -11,6 +11,8 @@ public class Cars {
 			System.out.println("Car is Japnese");
 		}
 		if (mfg.equalsIgnoreCase("Ford")) {
+			
+			
 			System.out.println("Car is American");
 		}
 		if (mfg.equalsIgnoreCase("Maruti")) {
