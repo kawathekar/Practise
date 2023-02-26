@@ -13,7 +13,7 @@ public class Cars {
 		if (mfg.equalsIgnoreCase("Ford")) {
 			
 			
-			System.out.println("Car is Americana &");
+			System.out.println("Car is American");
 		}
 		if (mfg.equalsIgnoreCase("Maruti")) {
 			System.out.println("Car is Indian");
@@ -36,9 +36,17 @@ public class Cars {
 	public static void Carmake(float year) {
 		System.out.println("Car is manufactured in "+year);
 	}
+	
 	//Method Overriding
 	public static void TopSpeed(int Speed) {
 		System.out.println("Car's Top speed is "+Speed);
 	}
+	
+	//Method Overloading
+	public static void TopSpeed(String Speed) {
+		System.out.println("Car's Top speed is "+Speed);
+	}
+	
+	
 	
 }
