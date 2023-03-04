@@ -1,5 +1,7 @@
 package OOPS;
 
+import java.util.Scanner;
+
 public class Cars {
 	
 	//Inheritance
@@ -10,9 +12,7 @@ public class Cars {
 		if (mfg.equalsIgnoreCase("TOYOTA")) {
 			System.out.println("Car is Japnese");
 		}
-		if (mfg.equalsIgnoreCase("Ford")) {
-			
-			
+		if (mfg.equalsIgnoreCase("Ford")) {			
 			System.out.println("Car is American");
 		}
 		if (mfg.equalsIgnoreCase("Maruti")) {
