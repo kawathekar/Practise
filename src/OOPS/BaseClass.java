@@ -6,7 +6,6 @@ public class BaseClass extends Cars {
 	static ClassofDcodetech obj;
 	static classofAutomation Obj1 ;
 	static Capitals obj2;
-	static Capitals obj3;
 
 	public static void main(String[] args) {
 		//Inheritance
@@ -28,7 +27,7 @@ public class BaseClass extends Cars {
 		obj.Location("Soham");
 		//obj2.Capitals1("Maharashtra");
 		obj2.population("Goa");
-		obj3.zipcode("Goa");
+		obj2.zipcode("Goa");
 		
 		//Abstraction
 		Obj1 = new Java();
